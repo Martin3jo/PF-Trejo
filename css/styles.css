@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 0.1fr 0.2fr 2fr 0.2fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "menu menu" "titulo titulo " "principal principal " "footer footer "; }
+  body nav {
+    width: 100%;
+    height: 50px;
+    grid-area: menu;
+    justify-content: flex-start;
+    background-color: #2aa821; }
+    body nav ul {
+      list-style-type: none; }
+      body nav ul li {
+        display: inline-block;
+        border-right: 1px solid #054598;
+        padding: 5px; }
+        body nav ul li a:link,
+        body nav ul li a:visited,
+        body nav ul li a:active {
+          list-style: none;
+          text-decoration: underline;
+          color: #fef9fd; }
+  body header {
+    width: 100%;
+    height: 110px;
+    background-color: #2aa821;
+    grid-area: titulo; }
+    body header .divContent {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: flex-start; }
+      body header .divContent .headerDivh1 {
+        display: flex;
+        color: #fef9fd;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 10px;
+        font-family: "Gayathri", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-align: center; }
+        body header .divContent .headerDivh1 .h1Header {
+          font-size: 1.5em; }
+  body main {
+    background-color: #fef9fd;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    grid-area: principal;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 0.1fr;
+    grid-template-areas: "prim aside" "sub21 aside" "formativas aside" "fem aside"; }
+    body main #primera {
+      grid-area: prim; }
+      body main #primera .divArticle {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        margin: 12px;
+        margin-left: 0;
+        border-top: none;
+        background-color: #c6fdd0;
+        border: 3px solid #054598; }
+        body main #primera .divArticle .divH3 {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-items: center;
+          padding: 10px;
+          font-family: "Roboto Condensed", sans-serif;
+          text-align: center; }
+    body main #sub21 {
+      grid-area: sub21; }
+      body main #sub21 .divArticle1 {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        margin: 12px;
+        margin-left: 0;
+        border-top: none;
+        border: 3px solid #054598; }
+        body main #sub21 .divArticle1 .divH3 {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-items: center;
+          padding: 10px;
+          font-family: "Roboto Condensed", sans-serif;
+          text-align: center; }
+    body main #formativas {
+      grid-area: formativas; }
+      body main #formativas .divArticle {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        margin: 12px;
+        margin-left: 0;
+        border-top: none;
+        background-color: #c6fdd0;
+        border: 3px solid #054598; }
+        body main #formativas .divArticle .divH3 {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-items: center;
+          padding: 10px;
+          font-family: "Roboto Condensed", sans-serif;
+          text-align: center; }
+    body main #femenino {
+      grid-area: fem; }
+      body main #femenino .divArticle1 {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        margin: 12px;
+        margin-left: 0;
+        border-top: none;
+        border: 3px solid #054598; }
+        body main #femenino .divArticle1 .divH3 {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-items: center;
+          padding: 10px;
+          font-family: "Roboto Condensed", sans-serif;
+          text-align: center; }
+    body main aside {
+      background-color: #fef9fd;
+      grid-area: aside;
+      height: 100%;
+      border: 3px solid #054598;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-around;
+      padding: 9px;
+      margin-top: 12px; }
+  body footer {
+    background-color: #054598;
+    grid-area: footer;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    color: white;
+    position: unset;
+    border: 5px solid #2aa821;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    body footer a {
+      color: #fef9fd; }

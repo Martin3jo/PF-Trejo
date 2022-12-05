@@ -166,3 +166,39 @@ body {
     justify-content: space-evenly; }
     body footer a {
       color: #fef9fd; }
+
+body .headerNav {
+  border: 5px solid #054598; }
+  body .headerNav .headerDivh1 {
+    display: flex;
+    color: #fef9fd;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px;
+    font-family: "Gayathri", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center; }
+
+body #mainHincha {
+  background-color: #fef9fd;
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-image: url(../images/EscudoYANDA.ico);
+  background-position: center;
+  background-size: 70%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "h3" "form" ".";
+  justify-items: center;
+  align-items: baseline;
+  justify-content: center; }
+  body #mainHincha #h3Hincha {
+    grid-area: h3;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  body #mainHincha #formHincha {
+    grid-area: form; }

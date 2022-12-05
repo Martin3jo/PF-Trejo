@@ -211,3 +211,25 @@ body #mainGaleria {
   grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-template-areas: " . imagenes imagenes .  " " . imagenes  imagenes .  " " . imagenes imagenes .  ";
   justify-items: center; }
+
+body #mainNoticias {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 3fr 0.5fr;
+  grid-template-areas: "noticiasPrimera aside" "noticiasSub21 aside" "noticiasForm aside" "noticiasFem aside"; }
+  body #mainNoticias #noticias1ra {
+    text-align: center;
+    grid-area: noticiasPrimera;
+    font-size: large; }
+  body #mainNoticias #noticiasSub21 {
+    text-align: center;
+    grid-area: noticiasub21;
+    font-size: large; }
+  body #mainNoticias #noticiasFormativas {
+    text-align: center;
+    font-size: large;
+    grid-area: noticiasForm; }
+  body #mainNoticias #noticiasFemenino {
+    text-align: center;
+    font-size: large;
+    grid-area: noticiasFem; }

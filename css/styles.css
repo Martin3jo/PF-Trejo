@@ -26,8 +26,9 @@ body {
         body nav ul li a:visited,
         body nav ul li a:active {
           list-style: none;
-          text-decoration: underline;
-          color: #fef9fd; }
+          text-decoration: none;
+          color: #fef9fd;
+          font-weight: bold; }
   body header {
     width: 100%;
     height: 110px;
@@ -200,7 +201,8 @@ body #mainHincha {
     grid-area: h3;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    text-align: center; }
   body #mainHincha #formHincha {
     grid-area: form; }
     body #mainHincha #formHincha a {

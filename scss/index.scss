@@ -14,6 +14,10 @@ body {
     grid-area: menu;
     justify-content: flex-start;
     background-color: #2aa821;
+    .fontStyle {
+      font-weight: bold;
+      color: white;
+    }
 
     ul {
       list-style-type: none;

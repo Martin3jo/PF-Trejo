@@ -15,6 +15,9 @@ body {
     grid-area: menu;
     justify-content: flex-start;
     background-color: #2aa821; }
+    body nav .fontStyle {
+      font-weight: bold;
+      color: white; }
     body nav ul {
       list-style-type: none; }
       body nav ul li {
@@ -280,5 +283,5 @@ body #mainNosotros {
     margin-top: 3px;
     text-align: center;
     font-weight: bold; }
-  li:hoover {
-    text-transform: capitalize; } }
+  #mainNosotros {
+    padding: 13px; } }

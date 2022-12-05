@@ -39,6 +39,9 @@ body {
     }
     #formHincha {
       grid-area: form;
+      a {
+        border: 2px solid black;
+      }
     }
   }
 }

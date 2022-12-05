@@ -9,3 +9,40 @@
 @import "galeria.scss";
 @import "noticias.scss";
 @import "nosotros.scss";
+
+@media only screen and(max-width:1024px) {
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #054598;
+    border-radius: 10px;
+    border: 1px solid #fef9fd;
+    margin-top: 3px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .h1Header {
+    font-size: 1.5em;
+  }
+  nav ul li a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+  }
+
+  li {
+    display: flex;
+
+    background-color: #054598;
+    border-radius: 10px;
+    border: 1px solid #fef9fd;
+    margin-top: 3px;
+    text-align: center;
+    font-weight: bold;
+  }
+  li:hoover {
+    text-transform: capitalize;
+  }
+}

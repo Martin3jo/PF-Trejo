@@ -20,7 +20,8 @@ body {
       body nav ul li {
         display: inline-block;
         border-right: 1px solid #054598;
-        padding: 5px; }
+        padding: 5px;
+        font-weight: bold; }
         body nav ul li a:link,
         body nav ul li a:visited,
         body nav ul li a:active {
@@ -251,3 +252,31 @@ body #mainNosotros {
     font-size: xx-large;
     text-align: -webkit-center;
     grid-area: parrafo; }
+
+@media only screen and (max-width: 1024px) {
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #054598;
+    border-radius: 10px;
+    border: 1px solid #fef9fd;
+    margin-top: 3px;
+    text-align: center; } }
+
+@media only screen and (max-width: 500px) {
+  .h1Header {
+    font-size: 1.5em; }
+  nav ul li a:link,
+  a:visited,
+  a:active {
+    text-decoration: none; }
+  li {
+    display: flex;
+    background-color: #054598;
+    border-radius: 10px;
+    border: 1px solid #fef9fd;
+    margin-top: 3px;
+    text-align: center;
+    font-weight: bold; }
+  li:hoover {
+    text-transform: capitalize; } }

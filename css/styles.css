@@ -204,3 +204,10 @@ body #mainHincha {
     grid-area: form; }
     body #mainHincha #formHincha a {
       border: 2px solid black; }
+
+body #mainGaleria {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-areas: " . imagenes imagenes .  " " . imagenes  imagenes .  " " . imagenes imagenes .  ";
+  justify-items: center; }

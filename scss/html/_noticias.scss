@@ -1,0 +1,37 @@
+body {
+  #mainNoticias {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 3fr 0.5fr;
+    grid-template-areas:
+      "noticiasPrimera aside"
+      "noticiasSub21 aside"
+      "noticiasForm aside"
+      "noticiasFem aside";
+    #noticias1ra {
+      text-align: center;
+      grid-area: noticiasPrimera;
+
+      font-size: large;
+    }
+    #noticiasSub21 {
+      text-align: center;
+
+      grid-area: noticiasub21;
+
+      font-size: large;
+    }
+    #noticiasFormativas {
+      text-align: center;
+      font-size: large;
+
+      grid-area: noticiasForm;
+    }
+    #noticiasFemenino {
+      text-align: center;
+
+      font-size: large;
+      grid-area: noticiasFem;
+    }
+  }
+}

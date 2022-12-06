@@ -1,0 +1,48 @@
+body {
+  .headerNav {
+    border: 5px solid #054598;
+    .headerDivh1 {
+      display: flex;
+      color: #fef9fd;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      padding: 10px;
+      font-family: "Gayathri", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      text-align: center;
+    }
+  }
+  #mainHincha {
+    background-color: #fef9fd;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-image: url(../images/EscudoYANDA.ico);
+    background-position: center;
+    background-size: 70%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "h3"
+      "form"
+      ".";
+    justify-items: center;
+    align-items: baseline;
+    justify-content: center;
+    #h3Hincha {
+      grid-area: h3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    #formHincha {
+      grid-area: form;
+      a {
+        border: 2px solid black;
+      }
+    }
+  }
+}

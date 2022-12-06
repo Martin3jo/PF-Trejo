@@ -1,0 +1,21 @@
+%estilosArticle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin: 12px;
+  margin-left: 0;
+  border-top: none;
+  background-color: #c6fdd0;
+  border: 3px solid #054598;
+}
+%estilosArticle1 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin: 12px;
+  margin-left: 0;
+  border-top: none;
+  border: 3px solid #054598;
+}

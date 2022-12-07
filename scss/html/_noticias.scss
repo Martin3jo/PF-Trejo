@@ -9,28 +9,19 @@ body {
       "noticiasForm aside"
       "noticiasFem aside";
     #noticias1ra {
-      text-align: center;
+      @extend %estiloTextoNot;
       grid-area: noticiasPrimera;
-
-      font-size: large;
     }
     #noticiasSub21 {
-      text-align: center;
-
+      @extend %estiloTextoNot;
       grid-area: noticiasub21;
-
-      font-size: large;
     }
     #noticiasFormativas {
-      text-align: center;
-      font-size: large;
-
+      @extend %estiloTextoNot;
       grid-area: noticiasForm;
     }
     #noticiasFemenino {
-      text-align: center;
-
-      font-size: large;
+      @extend %estiloTextoNot;
       grid-area: noticiasFem;
     }
   }

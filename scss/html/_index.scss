@@ -82,90 +82,36 @@ body {
     #primera {
       grid-area: prim;
       .divArticle {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        margin: 12px;
-        margin-left: 0;
-        border-top: none;
-        background-color: #c6fdd0;
-        border: 3px solid #054598;
+        @extend %estilosArticle;
         .divH3 {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          align-items: center;
-          padding: 10px;
-          font-family: "Roboto Condensed", sans-serif;
-          text-align: center;
+          @extend %estiloDivh3;
         }
       }
     }
     #sub21 {
       grid-area: sub21;
       .divArticle1 {
-        display: flex;
-        flex-direction: row-reverse;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        margin: 12px;
-        margin-left: 0;
-        border-top: none;
-        border: 3px solid #054598;
+        @extend %estilosArticle1;
         .divH3 {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          align-items: center;
-          padding: 10px;
-          font-family: "Roboto Condensed", sans-serif;
-          text-align: center;
+          @extend %estiloDivh3;
         }
       }
     }
     #formativas {
       grid-area: formativas;
       .divArticle {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        margin: 12px;
-        margin-left: 0;
-        border-top: none;
-        background-color: #c6fdd0;
-        border: 3px solid #054598;
+        @extend %estilosArticle;
         .divH3 {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          align-items: center;
-          padding: 10px;
-          font-family: "Roboto Condensed", sans-serif;
-          text-align: center;
+          @extend %estiloDivh3;
         }
       }
     }
     #femenino {
       grid-area: fem;
       .divArticle1 {
-        display: flex;
-        flex-direction: row-reverse;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        margin: 12px;
-        margin-left: 0;
-        border-top: none;
-        border: 3px solid #054598;
+        @extend %estilosArticle1;
         .divH3 {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          align-items: center;
-          padding: 10px;
-          font-family: "Roboto Condensed", sans-serif;
-          text-align: center;
+          @extend %estiloDivh3;
         }
       }
     }

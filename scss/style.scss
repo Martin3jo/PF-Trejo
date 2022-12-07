@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 
-@import "index.scss";
-@import "hincha.scss";
-@import "galeria.scss";
-@import "noticias.scss";
-@import "nosotros.scss";
+@import "./html/index";
+@import "./html/hincha";
+@import "./html/galeria";
+@import "./html/noticias";
+@import "./html/nosotros";
+@import "./utilidades/extend";
 
-@media only screen and(max-width:1024px) {
+@media only screen and(max-width: 1024px) {
   li {
     display: flex;
     flex-wrap: wrap;

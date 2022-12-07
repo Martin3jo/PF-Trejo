@@ -19,3 +19,12 @@
   border-top: none;
   border: 3px solid #054598;
 }
+%estiloDivh3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}

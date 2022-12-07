@@ -67,82 +67,12 @@ body {
     grid-template-areas: "prim aside" "sub21 aside" "formativas aside" "fem aside"; }
     body main #primera {
       grid-area: prim; }
-      body main #primera .divArticle {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        margin: 12px;
-        margin-left: 0;
-        border-top: none;
-        background-color: #c6fdd0;
-        border: 3px solid #054598; }
-        body main #primera .divArticle .divH3 {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          align-items: center;
-          padding: 10px;
-          font-family: "Roboto Condensed", sans-serif;
-          text-align: center; }
     body main #sub21 {
       grid-area: sub21; }
-      body main #sub21 .divArticle1 {
-        display: flex;
-        flex-direction: row-reverse;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        margin: 12px;
-        margin-left: 0;
-        border-top: none;
-        border: 3px solid #054598; }
-        body main #sub21 .divArticle1 .divH3 {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          align-items: center;
-          padding: 10px;
-          font-family: "Roboto Condensed", sans-serif;
-          text-align: center; }
     body main #formativas {
       grid-area: formativas; }
-      body main #formativas .divArticle {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        margin: 12px;
-        margin-left: 0;
-        border-top: none;
-        background-color: #c6fdd0;
-        border: 3px solid #054598; }
-        body main #formativas .divArticle .divH3 {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          align-items: center;
-          padding: 10px;
-          font-family: "Roboto Condensed", sans-serif;
-          text-align: center; }
     body main #femenino {
       grid-area: fem; }
-      body main #femenino .divArticle1 {
-        display: flex;
-        flex-direction: row-reverse;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        margin: 12px;
-        margin-left: 0;
-        border-top: none;
-        border: 3px solid #054598; }
-        body main #femenino .divArticle1 .divH3 {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          align-items: center;
-          padding: 10px;
-          font-family: "Roboto Condensed", sans-serif;
-          text-align: center; }
     body main aside {
       background-color: #fef9fd;
       grid-area: aside;
@@ -257,6 +187,36 @@ body #mainNosotros {
     font-size: xx-large;
     text-align: -webkit-center;
     grid-area: parrafo; }
+
+body main #primera .divArticle, body main #formativas .divArticle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin: 12px;
+  margin-left: 0;
+  border-top: none;
+  background-color: #c6fdd0;
+  border: 3px solid #054598; }
+
+body main #sub21 .divArticle1, body main #femenino .divArticle1 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin: 12px;
+  margin-left: 0;
+  border-top: none;
+  border: 3px solid #054598; }
+
+body main #primera .divArticle .divH3, body main #sub21 .divArticle1 .divH3, body main #formativas .divArticle .divH3, body main #femenino .divArticle1 .divH3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center; }
 
 @media only screen and (max-width: 1024px) {
   li {

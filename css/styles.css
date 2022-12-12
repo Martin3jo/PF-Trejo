@@ -35,6 +35,7 @@ body {
   body header {
     width: 100%;
     height: 110px;
+    z-index: 1;
     background-color: #2aa821;
     grid-area: titulo; }
     body header .divContent {
@@ -60,6 +61,7 @@ body {
     background-color: #fef9fd;
     justify-content: space-between;
     align-items: center;
+    z-index: -1;
     display: grid;
     grid-area: principal;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -77,6 +79,7 @@ body {
       background-color: #fef9fd;
       grid-area: aside;
       height: 100%;
+      width: auto;
       border: 3px solid #054598;
       display: flex;
       flex-direction: column;
@@ -142,11 +145,8 @@ body #mainHincha {
       border: 2px solid black; }
 
 body #mainGaleria {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-areas: " . imagenes imagenes .  " " . imagenes  imagenes .  " " . imagenes imagenes .  ";
-  justify-items: center; }
+  display: flex;
+  justify-content: center; }
 
 body #mainNoticias {
   display: grid;
@@ -240,4 +240,6 @@ body #mainNoticias #noticias1ra, body #mainNoticias #noticiasSub21, body #mainNo
     text-align: center;
     font-weight: bold; }
   #mainNosotros {
-    padding: 13px; } }
+    padding: 13px; }
+  main {
+    width: 100vw; } }

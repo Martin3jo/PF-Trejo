@@ -10,6 +10,7 @@
 @import "./html/noticias";
 @import "./html/nosotros";
 @import "./utilidades/extend";
+@import "./utilidades/mixin";
 
 @media only screen and(max-width: 1024px) {
   li {
@@ -46,5 +47,8 @@
 
   #mainNosotros {
     padding: 13px;
+  }
+  main {
+    width: 100vw;
   }
 }

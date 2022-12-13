@@ -35,7 +35,6 @@ body {
   body header {
     width: 100%;
     height: 110px;
-    z-index: 1;
     background-color: #2aa821;
     grid-area: titulo; }
     body header .divContent {
@@ -239,7 +238,13 @@ body #mainNoticias #noticias1ra, body #mainNoticias #noticiasSub21, body #mainNo
     margin-top: 3px;
     text-align: center;
     font-weight: bold; }
+  body header .divContent .headerDivh1 .h1Header {
+    font-size: 1.3em; }
+  body main {
+    grid-template-rows: 1fr 1fr 1fr 1fr 0.2fr;
+    grid-template-columns: 1fr 0.1fr;
+    grid-template-areas: "prim prim" "sub21 sub21" "formativas formativas" "fem fem" "aside aside"; }
+    body main aside {
+      flex-direction: row; }
   #mainNosotros {
-    padding: 13px; }
-  main {
-    width: 100vw; } }
+    padding: 13px; } }

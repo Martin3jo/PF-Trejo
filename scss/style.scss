@@ -44,11 +44,32 @@
     text-align: center;
     font-weight: bold;
   }
+  body {
+    header {
+      .divContent {
+        .headerDivh1 {
+          .h1Header {
+            font-size: 1.3em;
+          }
+        }
+      }
+    }
+    main {
+      grid-template-rows: 1fr 1fr 1fr 1fr 0.2fr;
+      grid-template-columns: 1fr 0.1fr;
+      grid-template-areas:
+        "prim prim"
+        "sub21 sub21"
+        "formativas formativas"
+        "fem fem"
+        "aside aside";
+      aside {
+        flex-direction: row;
+      }
+    }
+  }
 
   #mainNosotros {
     padding: 13px;
-  }
-  main {
-    width: 100vw;
   }
 }

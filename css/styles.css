@@ -104,6 +104,10 @@ body {
     body footer a {
       color: #fef9fd; }
 
+body nav .fonStyle {
+  font-weight: bold;
+  color: white; }
+
 body .headerNav {
   border: 5px solid #054598; }
   body .headerNav .headerDivh1 {

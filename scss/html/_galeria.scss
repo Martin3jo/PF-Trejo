@@ -2,7 +2,7 @@ body {
   #mainGaleria {
     display: flex;
     justify-content: center;
-    .imgSize {
+    img {
       width: 1200px;
       height: 425px;
       object-fit: contain;

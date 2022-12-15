@@ -80,6 +80,7 @@
       }
     }
     #mainGaleria {
+      height: 100vh;
       img {
         @include medidas(320px, 400px);
         object-fit: contain;

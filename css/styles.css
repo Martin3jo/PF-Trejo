@@ -262,14 +262,16 @@ body #mainNoticias #noticias1ra, body #mainNoticias #noticiasSub21, body #mainNo
     grid-template-areas: "prim prim" "sub21 sub21" "formativas formativas" "fem fem" "aside aside"; }
     body main aside {
       flex-direction: row; }
-  body #mainGaleria img {
-    width: 320px;
-    height: 400px;
-    object-fit: contain; }
-  body #mainGaleria video {
-    width: 320px;
-    height: 400px;
-    object-fit: contain; } }
+  body #mainGaleria {
+    height: 100vh; }
+    body #mainGaleria img {
+      width: 320px;
+      height: 400px;
+      object-fit: contain; }
+    body #mainGaleria video {
+      width: 320px;
+      height: 400px;
+      object-fit: contain; } }
 
 #mainNosotros {
   padding: 13px; }

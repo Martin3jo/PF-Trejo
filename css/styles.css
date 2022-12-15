@@ -150,6 +150,10 @@ body #mainHincha {
 body #mainGaleria {
   display: flex;
   justify-content: center; }
+  body #mainGaleria .imgSize {
+    width: 1200px;
+    height: 425px;
+    object-fit: contain; }
 
 body #mainNoticias {
   display: grid;

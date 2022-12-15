@@ -2,5 +2,10 @@ body {
   #mainGaleria {
     display: flex;
     justify-content: center;
+    .imgSize {
+      width: 1200px;
+      height: 425px;
+      object-fit: contain;
+    }
   }
 }

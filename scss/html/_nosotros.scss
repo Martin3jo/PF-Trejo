@@ -5,7 +5,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-areas: "parrafo";
     .divP {
-      background-color: #fef9fd;
+      background-color: $colorUno;
       width: 100%;
       height: calc(100vh - 150px);
       display: flex;

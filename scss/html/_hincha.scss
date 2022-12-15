@@ -1,15 +1,16 @@
+@import "../utilidades/variables";
 body {
   nav {
     .fonStyle {
-      font-weight: bold;
+      font-weight: $tamañoLetra;
       color: white;
     }
   }
   .headerNav {
-    border: 5px solid #054598;
+    border: 5px solid $colorDos;
     .headerDivh1 {
       display: flex;
-      color: #fef9fd;
+      color: $colorUno;
       align-items: center;
       flex-direction: column;
       flex-wrap: nowrap;
@@ -21,7 +22,7 @@ body {
     }
   }
   #mainHincha {
-    background-color: #fef9fd;
+    background-color: $colorUno;
     background-size: 1000px;
     background-repeat: no-repeat;
     background-image: url(../images/EscudoYANDA.ico);

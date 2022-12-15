@@ -1,3 +1,4 @@
+@import "../utilidades/variables";
 body {
   height: 100vh;
   display: grid;
@@ -15,7 +16,7 @@ body {
     justify-content: flex-start;
     background-color: #2aa821;
     .fontStyle {
-      font-weight: bold;
+      font-weight: $tamañoLetra;
       color: white;
     }
 
@@ -23,17 +24,17 @@ body {
       list-style-type: none;
       li {
         display: inline-block;
-        border-right: 1px solid #054598;
+        border-right: 1px solid $colorDos;
         padding: 5px;
-        font-weight: bold;
+        font-weight: $tamañoLetra;
 
         a:link,
         a:visited,
         a:active {
           list-style: none;
           text-decoration: none;
-          color: #fef9fd;
-          font-weight: bold;
+          color: $colorUno;
+          font-weight: $tamañoLetra;
         }
       }
     }
@@ -42,7 +43,7 @@ body {
     width: 100%;
     height: 110px;
 
-    background-color: #2aa821;
+    background-color: $colorTres;
     grid-area: titulo;
     .divContent {
       display: flex;
@@ -52,7 +53,7 @@ body {
       align-items: flex-start;
       .headerDivh1 {
         display: flex;
-        color: #fef9fd;
+        color: $colorUno;
         align-items: center;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -68,7 +69,7 @@ body {
     }
   }
   main {
-    background-color: #fef9fd;
+    background-color: $colorUno;
     justify-content: space-between;
     align-items: center;
     z-index: -1;
@@ -118,11 +119,11 @@ body {
       }
     }
     aside {
-      background-color: #fef9fd;
+      background-color: $colorUno;
       grid-area: aside;
       height: 100%;
       width: auto;
-      border: 3px solid #054598;
+      border: 3px solid $colorDos;
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
@@ -133,7 +134,7 @@ body {
     }
   }
   footer {
-    background-color: #054598;
+    background-color: $colorDos;
     grid-area: footer;
     bottom: 0;
     width: 100%;
@@ -147,7 +148,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     a {
-      color: #fef9fd;
+      color: $colorUno;
     }
   }
 }

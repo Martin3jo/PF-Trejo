@@ -80,13 +80,16 @@
         flex-direction: row;
       }
     }
+    .headerGaleria {
+      height: 113px;
+    }
     #mainGaleria {
       img {
-        @include medidas(320px, 400px);
+        @include medidas(320px, 321px);
         object-fit: contain;
       }
       video {
-        @include medidas(320px, 400px);
+        @include medidas(320px, 321px);
         object-fit: contain;
       }
     }

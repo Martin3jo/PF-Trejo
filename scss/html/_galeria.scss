@@ -3,8 +3,10 @@ body {
   #mainGaleria {
     display: flex;
     justify-content: center;
-    .imgSize {
+
+    img {
       @include medidas(1200px, 425px);
+
       object-fit: contain;
     }
   }

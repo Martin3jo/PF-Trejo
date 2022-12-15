@@ -22,6 +22,18 @@
     margin-top: 3px;
     text-align: center;
   }
+  body {
+    #mainGaleria {
+      img {
+        @include medidas(768px, 335px);
+        object-fit: contain;
+      }
+      video {
+        @include medidas(768px, 335px);
+        object-fit: contain;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -67,9 +79,19 @@
         flex-direction: row;
       }
     }
+    #mainGaleria {
+      img {
+        @include medidas(320px, 400px);
+        object-fit: contain;
+      }
+      video {
+        @include medidas(320px, 400px);
+        object-fit: contain;
+      }
+    }
   }
+}
 
-  #mainNosotros {
-    padding: 13px;
-  }
+#mainNosotros {
+  padding: 13px;
 }

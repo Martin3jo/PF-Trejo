@@ -225,7 +225,15 @@ body #mainNoticias #noticias1ra, body #mainNoticias #noticiasSub21, body #mainNo
     border-radius: 10px;
     border: 1px solid #fef9fd;
     margin-top: 3px;
-    text-align: center; } }
+    text-align: center; }
+  body #mainGaleria img {
+    width: 768px;
+    height: 335px;
+    object-fit: contain; }
+  body #mainGaleria video {
+    width: 768px;
+    height: 335px;
+    object-fit: contain; } }
 
 @media only screen and (max-width: 500px) {
   .h1Header {
@@ -250,5 +258,14 @@ body #mainNoticias #noticias1ra, body #mainNoticias #noticiasSub21, body #mainNo
     grid-template-areas: "prim prim" "sub21 sub21" "formativas formativas" "fem fem" "aside aside"; }
     body main aside {
       flex-direction: row; }
-  #mainNosotros {
-    padding: 13px; } }
+  body #mainGaleria img {
+    width: 320px;
+    height: 400px;
+    object-fit: contain; }
+  body #mainGaleria video {
+    width: 320px;
+    height: 400px;
+    object-fit: contain; } }
+
+#mainNosotros {
+  padding: 13px; }

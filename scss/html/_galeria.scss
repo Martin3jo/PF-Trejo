@@ -6,7 +6,6 @@ body {
 
     img {
       @include medidas(1200px, 425px);
-
       object-fit: contain;
     }
   }

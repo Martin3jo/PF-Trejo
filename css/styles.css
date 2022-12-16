@@ -221,6 +221,9 @@ body #mainNoticias #noticias1ra, body #mainNoticias #noticiasSub21, body #mainNo
   text-align: center;
   font-size: large; }
 
+body #mainGaleria .carousel-control-prev-icon, body #mainGaleria .carousel-control-next-icon {
+  background-color: #054598; }
+
 @media only screen and (max-width: 1024px) {
   li {
     display: flex;
